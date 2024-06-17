@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/BUS_interconntor.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/CPU_Core.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/ControlUnit.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/DataMemory.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/DataPath.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/GPIO.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/InstructionMemory.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/RV32I.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/Timer.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/new/UART_BUS.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sources_1/imports/new/fnd.sv" \
+"../../../../0610_RISC_V_Peripheral.srcs/sim_1/new/tb_RV32I.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
