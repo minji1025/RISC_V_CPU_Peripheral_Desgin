@@ -12,7 +12,7 @@
 
 ![image](https://github.com/minji1025/RISC_V_CPU_Peripheral_Desgin/assets/163821451/92276eb4-9112-479c-b190-4d8a201c71c9)
 
-## Project goal
+## Project Goal
 * CPU (U, J Type) design, Peripheral(TIM & GPIO & UART) design
 * STM 32의 Reference Manual 방식을 기반으로 만든 Peripheral의 Reference Manual 제작
 * 만든 Peripheral에 대한 Simulation
